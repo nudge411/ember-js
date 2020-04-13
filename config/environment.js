@@ -46,8 +46,8 @@ module.exports = function(environment) {
   if (environment === 'production') {
     // here you can enable a production-specific feature
   }
-  
-  //토큰
+
+  ENV.MAPBOX_ACCESS_TOKEN = 'pk.eyJ1IjoibnVkZ2U0MTEiLCJhIjoiY2s4dHFpZHo0MDMxajNucGFldGZmNnoydSJ9.WtPeryxJp1U9HV60cZHRXQ';
   
   return ENV;
 };
